@@ -24,3 +24,7 @@ def limpiar(x):
         if values:
             return key
     return 'Otros Accesorios'
+
+
+def convertir(i):
+        return float(i.split(" ")[0].replace(",", "."))
